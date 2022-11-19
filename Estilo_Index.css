@@ -12,7 +12,7 @@
 html, body{
 	height: auto;
 	background-color: black;
-	cursor: url(./Imagens_index/FIndex.png), default;
+	cursor: url(./Us/Imagens_Us/caneta_cursor.png), default;
 	
 }
 .tdshow_star{
@@ -114,7 +114,7 @@ table{
 	background-size: cover;
 }
 a.link_star{
-	cursor: url(./Imagens_index/FIndex.png), default;
+	cursor: url(./Us/Imagens_Us/caneta_cursor.png), default;
 	caret-color:unset;
 	/*cursor:none;*/
 }
@@ -122,7 +122,7 @@ a.link_star:active{
 	cursor: none;
 }
 a.link_aneis{
-	cursor: url(./Imagens_index/FIndex.png), default;
+	cursor: url(./Us/Imagens_Us/caneta_cursor.png), default;
 }
 a.link_aneis:active{
 	cursor: none;
