@@ -1,0 +1,574 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+header{
+	background-image: -webkit-linear-gradient(#161623,rgb(61, 61, 87),#161623);/* chrome e safari */
+	background-image: -o-linear-gradient(#1C1C1C,#696969,#1C1C1C);  /* opera */
+	background-image: -moz-linear-gradient(#1C1C1C,#696969,#1C1C1C); /* firefox */
+	height: 100px;
+	padding: 10px;
+
+}
+#logo{
+	margin-top: 3px;
+	float: left;
+}
+#menu{
+	margin-top: 34px;
+	float: right;
+}
+#menu a{
+	text-transform: uppercase;
+	font-family: sans-serif;
+	color: #FFF;
+    margin: -9px 3px 3px 2px;
+    margin-top: -9px;
+	float: left;
+    text-shadow:3px 1px 3px #000;
+	font-weight: bold;
+	padding: 7px;
+	text-decoration: none;
+}
+#menu a:hover{
+	/*background-color: rgb(0, 0, 0, 0.3);*/
+	color: #ffbe00;
+	border-radius: 20px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: sans-serif;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	background-color: #000;
+}
+#p_star_wars{
+	text-shadow:3px 1px 3px #000;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #ffbe00;
+}
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+
+}
+main{
+	display: block;
+}
+.container_2{
+	width: 100%;
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.container_20{
+	width: 100%;
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+h2{
+	font-weight: 900;
+	color: #FFF;
+}
+section.module p{
+	margin-bottom: 40px;
+}
+section.module:last-child{
+	margin-bottom: 0;
+}
+section.module h2{
+	margin-bottom: 40px;
+	font-size: 30px;
+}
+section.module.content{
+	padding: 40px 0;
+	background-color:  /*#1C1C1C*//*rgba(49, 79, 79, 0.5)*/ #161623;
+}
+section.module.content-2{
+	padding: 40px 0;
+	background-color:  /*#1C1C1C*//*rgba(49, 79, 79, 0.5)*/#161623;
+}
+section.module.content-3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 10px;
+	background-color:  /*#1C1C1C*//*rgba(49, 79, 79, 0.5)*/#161623;
+	transition: background 0.4s ease-in ;
+}
+section.module.content-4{
+	padding: 40px 0;
+	background-color:  /*#1C1C1*//*rgba(49, 79, 79, 0.5)*/#161623;
+	color: 	#1E90FF;
+	text-transform: uppercase;
+}
+section.module.content-5{
+	padding: 40px 0;
+	background-color:  /*#1C1C1C*//*rgba(49, 79, 79, 0.5)*/#161623;
+}
+section.module.content-6{
+	padding: 40px 0;
+	background-color:/*#1C1C1C*//*rgba(49, 79, 79, 0.5)*/#161623;
+
+}
+section.module.parallax{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh !important;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed; /* dá o efeito parallax de fato*/
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+section.module.parallax:after{
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 8;
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+	background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);;
+	background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+	background: -o-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+section.module.parallax-1{
+	background-image:url(Imanges_Star/fundo_estrelado_star_wars.png);
+}
+section.module.parallax-2{
+	background-image:url(Imanges_Star/nave.png);
+}
+section.module.parallax-3{
+	background-image:url(Imanges_Star/estrela_morte.png);
+}
+section.module.parallax-5{
+	background-image:url(Imanges_Star/tatooine_fundo.png);
+}
+section.module.parallax-6{
+	background-image:url(Imanges_Star/vader_fundo.png);
+}
+section.module.parallax-7{
+	background-image:url(Imanges_Star/bilheteria_fundo.png);
+}
+section.module.parallax-8{
+	background-image:url(Imanges_Star/bilheteria2_fundo.png);
+}
+section.module.parallax-9{
+	background-image:url(Imanges_Star/fundo_estrelado_star_wars.png);
+}
+section.module.parallax-10{
+	background-image:url(Imanges_Star/yoda_fundo.png);
+}
+section.module.parallax-11{
+	background-image:url(Imanges_Star/jedi_sith_fundo.png);
+}
+section.module.parallax-12{
+	background-image:url(Imanges_Star/sabre_fundo.png);
+}
+section.module.parallax-13{
+	background-image:url(Imanges_Star/star_5.png);
+}
+section.module.parallax-14{
+	background-image:url(Imanges_Star/star_resum.png);
+}
+section.module.parallax-15{
+	background-image:url(Imanges_Star/robo_fundo.png);
+}
+section.module.parallax-16{
+	background-image:url(Imanges_Star/luke_fundo.png);
+}
+section.module.parallax-17{
+	background-image:url(Imanges_Star/seu_pai_2.png);
+}
+section.module.parallax-18{
+	background-image:url(Imanges_Star/sith_fundo.png);
+}
+section.module.parallax-19{
+	background-image:url(Imanges_Star/mandalorian.png);
+}
+section.module.parallax-20{
+	background-image:url(Imanges_Star/ep4_fundo.png);
+}
+section.module.parallax-21{
+	background-image:url(Imanges_Star/volta_fundo.png);
+}
+section.module.parallax-22{
+	background-image:url(Imanges_Star/bespin_fundo.png);
+}
+section.module.parallax-23{
+	background-image:url(Imanges_Star/bespin2_fundo.png);
+}
+section.module.parallax-24{
+	background-image:url(Imanges_Star/fim.png);
+}
+section.module.parallax-25{
+	background-image:url(Imanges_Star/estrela_da_morte.png);
+}
+section.module.parallax-26{
+	background-image:url(Imanges_Star/endor_fundo.png);
+}
+section.module.parallax-27{
+	background-image:url(Imanges_Star/ultima_batalha.png);
+}
+section.module.parallax-28{
+	background-image:url(Imanges_Star/millenium_fundo.png);
+}
+section.module.parallax-29{
+	background-image:url(Imanges_Star/darth2_fundo.png);
+}
+section.module.parallax-30{
+	background-image:url(Imanges_Star/nave_fundo.png);
+}
+section.module.parallax-31{
+	background-image:url(Imanges_Star/fundo_estrelado_star_wars.png);
+}
+
+section.module.parallax-32{
+	background-image:url(Imanges_Star/Star_Wars_Episodio_1_A_Ameaca_Fantasma.png);
+}
+
+section.module.parallax-33{
+	background-image:url(Imanges_Star/Jedi_atacados.png);
+}
+
+section.module.parallax-34{
+	background-image:url(Imanges_Star/Naboo.jpg);
+}
+
+section.module.parallax-35{
+	background-image:url(Imanges_Star/Anakin_Corrida_de_Pod.png);
+}
+section.module.parallax-36{
+	background-image:url(Imanges_Star/c3_fundo.png);
+}
+
+section.module.parallax-37{
+	background-image:url(Imanges_Star/Conselho_Jedi_e_Anakin.png);
+}
+section.module.parallax-38{
+	background-image:url(Imanges_Star/wan_fundo.png);
+}
+section.module.parallax-39{
+	background-image:url(Imanges_Star/leia_fundo.png);
+}
+
+section.module.parallax-40{
+	background-image:url(Imanges_Star/Naboo_volta.png);
+}
+
+section.module.parallax-41{
+	background-image:url(Imanges_Star/vilao1.png);
+}
+
+section.module.parallax-42{
+	background-image:url(Imanges_Star/kenobi.png);
+}
+
+section.module.parallax-43{
+	background-image:url(Imanges_Star/Naboo_celebration.png);
+}
+section.module.parallax-44{
+	background-image:url(Imanges_Star/obi_wan.png);
+}
+section.module.parallax-45{
+	background-image:url(Imanges_Star/o_fim.png);
+}
+section.module.parallax-46{
+	background-image:url(Imanges_Star/capa.png);
+}
+section.module.parallax-47{
+	background-image:url(Imanges_Star/seu_pai.jpg);
+}
+section.module.parallax-48{
+	background-image:url(Imanges_Star/pulp_star.png);
+}
+section.module.parallax-49{
+	background-image:url(Imanges_Star/clone_fundo.png);
+}
+section.module.parallax-50{
+	background-image:url(Imanges_Star/luta_fundo.png);
+}
+
+section.module.parallax-51{
+	background-image:url(Imanges_Star/ameaca_fantasma.png);
+}
+
+section.module.parallax-52{
+	background-image:url(Imanges_Star/ElencoEp1.png);
+}
+
+section.module.parallax-53{
+	background-image:url(Imanges_Star/ElencoEp2.png);
+}
+
+section.module.parallax-54{
+	background-image:url(Imanges_Star/ClonesImg1.png);
+}
+
+section.module.parallax-55{
+	background-image:url(Imanges_Star/anakin\ e\ obi-wan.webp);
+}
+
+section.module.parallax-56{
+	background-image:url(Imanges_Star/obi-wan\ confronta.webp);
+}
+
+section.module.parallax-57{
+	background-image:url(Imanges_Star/Anakin\ e\ padme.webp);
+}
+
+section.module.parallax-58{
+	background-image:url(Imanges_Star/batalha\ de\ geonasis.webp);
+}
+
+section.module.parallax-59{
+	background-image:url(Imanges_Star/conde\ dookan\ e\ yoda.webp);
+}
+
+section.module.parallax-60{
+	background-image:url(Imanges_Star/Batalhacoruscant.webp);
+}
+
+section.module.parallax-61{
+	background-image:url(Imanges_Star/resgatando\ o\ chanceler.jpg);
+}
+
+section.module.parallax-62{
+	background-image:url(Imanges_Star/general-grievous.webp);
+}
+
+section.module.parallax-63{
+	background-image:url(Imanges_Star/conselho\ jedi.webp);
+}
+
+section.module.parallax-64{
+	background-image:url(Imanges_Star/DARTH\ PLAGUEIS.png);
+}
+
+section.module.parallax-65{
+	background-image:url(Imanges_Star/general-grievous-vs-obi-wan.png);
+}
+
+section.module.parallax-66{
+	background-image:url(Imanges_Star/sidious\ revelado.jpg);
+}
+
+section.module.parallax-67{
+	background-image:url(Imanges_Star/levante\ vader.jpeg);
+}
+
+section.module.parallax-68{
+	background-image:url(Imanges_Star/Ordem_66_.webp);
+}
+
+section.module.parallax-69{
+	background-image:url(Imanges_Star/imperio.webp);
+}
+
+section.module.parallax-70{
+	background-image:url(Imanges_Star/yoda\ x\ palpatine.png);
+}
+
+section.module.parallax-71{
+	background-image:url(Imanges_Star/anakin\ x\ obiwan.webp);
+}
+
+section.module.parallax-72{
+	background-image:url(Imanges_Star/vader\ sendo\ criado.webp);
+}
+
+section.module.parallax-73{
+	background-image:url(Imanges_Star/obi-wan-beru.jpg);
+}
+
+section.module.parallax h1{
+	text-shadow: 5px 1px 3px #000;
+	text-transform: uppercase;
+	color: #FFF;
+	text-align: center;
+	font-size: 78px;
+	z-index: 50;
+}
+#star_wars{
+	display: flex;
+	margin: auto;
+	width: 40%;
+}
+p{
+	text-align: justify;
+	text-indent: 40px;
+}
+.padrao_titulo{
+	padding: 40px 0;
+	background-color:  /*#1C1C1*//*rgba(49, 79, 79, 0.5)*/#161623;
+	color: 	#1E90FF;
+	text-transform: uppercase;
+}
+.card{
+	width: 15%;
+	height: 100%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	cursor: pointer;
+	transition: transform 0.4s ease;
+}
+.capa_filme{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+img{
+	border-radius: 10px;
+}
+svg{
+	width: 7%;
+	height: 10%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	cursor: pointer;
+	transition: transform 0.4s ease;
+	
+}
+.container_ultimo{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+th{
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	padding: 5px 9px 5px 30px;
+	font-size: 25px;
+	text-shadow: 3px 1px 3px #000;
+}
+td{
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	padding: 0 9px 0 30px;
+	font-size: 20px;
+	text-shadow: 3px 1px 3px #000;
+}
+table td:hover{
+	color: #ffbe00;
+	border-radius: 5px;
+}
+table th:hover{
+	color: #ffbe00;
+	border-radius: 5px;
+}
+ul{
+	margin: 0 auto;
+	padding: 0 20px 0 270px;
+}
+.episodio{
+	color: #ffbe00;
+	text-align: center;
+	text-shadow: 5px 1px 3px #000;
+}
+.episodio{
+	text-align: center;
+	font-size: 55px;
+}
+#texto13{
+	text-indent: 370px;
+}
+.lista-elenco{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 20px;
+	text-shadow: 3px 1px 3px #000;
+	padding: 5px 9px 5px 170px;
+}
+ul li:hover{
+	color: #ffbe00;
+	border-radius: 3px;
+}
+.lista-elenco{
+	letter-spacing: 5px;
+}
+ul li{
+	padding-bottom: 15px;
+}
+
+.iconesfimpage{
+	width: 100px;
+    height: 80px;
+}
+
+.iconesfimpage:hover{
+	width: 110px;
+    height: 90px;
+}
+
+.iconesfimpage2{
+	width: 100px;
+    height: 80px;
+}
+
+.iconesfimpage2:hover{
+	width: 110px;
+    height: 60px;
+}
+
+.iconesfimpage1{
+	width: 120px;
+    height: 80px;
+}
+
+.iconesfimpage1:hover{
+	width: 125px;
+    height: 85px;
+}
+
+.tdfimpage{
+	width: 25cm;
+}
+
+::-webkit-scrollbar{
+	width: 12px;
+	/*background-image: url("fundo_estrelado_star_wars.png");*/
+	background-color: rgb(28, 28, 28);
+}
+::-webkit-scrollbar-thumb{
+	background-color: #ffbe00;
+	border-radius: 2px;
+}
+#de_volta_ao_topo{
+	text-decoration: none;
+	color: white;
+	background-color: #161623;
+	padding: 10px;
+	right: 10px;
+	bottom: 10px;
+	position: fixed;
+}
+
+.links_fim{
+	text-align: center;
+	line-height: 42px;
+}
+a:hover{
+	text-decoration: underline;
+}
+html,body,a{
+	cursor: url(../Imagens_index/icone2.png), default;
+}

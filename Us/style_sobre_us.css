@@ -1,0 +1,619 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    cursor: url(Imagens_Us/caneta_cursor.png),default;
+}
+@font-face {
+    font-family: "titulo";
+    src: url("./fontes_us/KGPrimaryItalics.ttf") ;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "texto";
+    src: url("./fontes_us/KIdDOS-Regular.ttf") ;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "link";
+    src: url("./fontes_us/Letters\ for\ Learners.ttf") ;
+    font-weight: normal;
+    font-style: normal;
+}
+.linklucas{
+    animation: piscapisca 3.5s infinite;
+}
+@keyframes piscapisca{
+	0%{ text-shadow: 1px 2px 2px 	#FEBB00}
+	10%{text-shadow: 1px 2px 2px rgba(80, 80, 80, 0);
+	}
+	20% {text-shadow: 1px 2px 2px 	#FEBB00}
+	30%{text-shadow: 1px 2px 2px rgba(80, 80, 80, 0);
+	}
+	40%{ text-shadow: 1px 2px 2px 	#FEBB00}
+	50%{text-shadow: 1px 2px 2px rgba(80, 80, 80, 0);
+	}
+	60%{ text-shadow: 1px 2px 2px 	#FEBB00}
+	70%{text-shadow: 1px 2px 2px rgba(80, 80, 80, 0);
+	}
+	80%{ text-shadow: 1px 2px 2px 	#FEBB00}
+	90%{text-shadow: 1px 2px 2px rgba(80, 80, 80, 0);
+	}
+	100%{ text-shadow: 1px 2px 2px 	#FEBB00}
+}
+
+.p_descricao:hover{
+    text-shadow: 1px 2px 2px rgba(80, 80, 80, 0.4);
+}
+body{
+    background-color: #1C1C1C;
+    cursor: url(Imagens_Us/caneta_cursor.png),default;
+   
+}
+.fundo{
+    width: auto;
+    height: auto;
+    margin-left: 400px;
+    margin-right: 300px;
+    background-image: url(./Imagens_Us/folha_pautada2.png);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 6px 6px #000;
+}
+
+p{
+    text-align: justify;
+    color:black;
+    font-size: 150%;
+}
+.p_descricao{
+    line-height: 42px;
+}
+.divgustavo{
+    padding: 0 0 8px 0px;
+    display: table;
+    display: inline-block;
+}
+.h1gustavo{
+    text-indent: 33px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 22px;
+}
+.gustavo_1{
+    float: right;
+    padding-top: 3em;
+    line-height:42px;
+    text-align:justify ;
+    padding-left: 32px;
+    padding-top: 20px;
+}
+
+.secfoto_gustavo{
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-left: 30px;
+    width: auto;
+    height: 370px;
+    display: table-row;
+    display: flex;
+    align-items: stretch;
+    
+}
+
+.sectexto_gustavo{
+    display: table-cell;
+    
+}
+.secfoto_gustavo1{
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    width: 100%;
+    height: 400px;
+    display: table-row;
+    display: flex;
+    align-items: stretch;
+
+    
+}
+.gustavo_11{
+    float: right;
+    line-height:42px;
+    text-align:justify ;
+    padding-left: 34px;
+    padding-top: 14px;
+}
+.gustavo_12{
+    float: right;
+    line-height:42px;
+    text-align:justify ;
+    padding-left: 34px;
+    padding-top: 14px;
+}
+.h1gustavo2{
+    text-indent: 33px;
+    padding-top: 24px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 22px;
+}
+.divgustavo2{
+    padding: 40px 0 32px 0;
+    display: table;
+    display: inline-block;
+}
+.divgustavo3{
+    padding: -20px 0 30px 0px;
+    margin-bottom: 60px;
+    display: table;
+    display: inline-block;
+}
+.gustavo_13{
+    float: right;
+    padding-top: 3em;
+    line-height:40px;
+    text-align:justify ;
+    padding-left: 32px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+.insta_e1{
+    width: 50px;
+    margin-bottom: 14px;
+    margin-left: 22px;
+    padding-right: 0%;
+    margin-right: 0%;
+    margin-top: -5px;
+}
+.git_e1{
+    margin-bottom: 14px;
+    width: 50px;
+    padding: 0;
+    margin-left: 1px;
+    margin-top: -5px;
+}
+.lin_e1{
+    margin-bottom: 14px;
+    width: 50px;
+    padding-bottom: 0;
+    margin-left: 1px;
+    margin-top: -5px;
+}
+/*
+.h1gustavoE{
+    padding: 100px 0 12px 0;
+    
+}
+
+.gustavoE_1{
+    line-height: 40px;
+}
+
+.victor_samuel{
+    padding: 100px 0 0 0;
+}
+.victor_samuel_1{
+    line-height: 42px;
+    padding-top: -10px;
+    padding-bottom: 10px;
+}
+.vini{
+    padding: 50px 0 12px 0;
+}
+.vini_1{
+    line-height: 40px;
+    padding-bottom: 4px;
+    padding-top: 0;
+}*/
+/*
+.foto_victor{
+    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+.secfoto_gustavoE{
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-left: 30px;
+    
+}
+*/
+
+
+
+/*
+.foto_vinicius{
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+*/
+.secfoto_gustavo2{
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-left: 30px;
+    border: solid 2px red;
+    width: auto;
+    height: 370px;
+    display: table-row;
+    
+}
+.sectexto_gustavo2{
+    display: table-cell;
+
+}
+.gustavo_2{
+    float: right;
+    padding-top: 3em;
+    line-height:45px;
+    text-align:justify ;
+    padding-left: 32px;
+    padding-top: 20px;
+}
+
+
+
+.secfoto_gustavo3{
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-left: 30px;
+    border: solid 2px red;
+    width: auto;
+    height: 370px;
+    display: table-row;
+    
+}
+.sectexto_gustavo3{
+    display: table-cell;
+    float: right;
+}
+.section3{
+    display: table-cell;
+    
+}
+.gustavo_3{
+    float: right;
+    padding-top: 3em;
+    line-height:45px;
+    text-align:justify ;
+    padding-left: 32px;
+    padding-top: 20px;
+}
+
+
+
+.secfoto_gustavo4{
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-left: 30px;
+    border: solid 2px red;
+    width: auto;
+    height: 370px;
+    display: table-row;
+    
+}
+.sectexto_gustavo4{
+    display: table-cell;
+
+}
+.gustavo_4{
+    float: right;
+    padding-top: 3em;
+    line-height:45px;
+    text-align:justify ;
+    padding-left: 32px;
+    padding-top: 20px;
+}
+
+h2{
+   margin-top: 30px;
+}
+
+
+.fotos{
+    width: 200px;
+    height: 250px;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+p{
+    text-align: justify;
+    padding-right: 30px;
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    cursor: url(Imagens_Us/caneta_cursor.png),default;
+}
+a:hover{
+    /*text-shadow: 1px 2px 2px #febb00;*/
+    cursor: url(Imagens_Us/caneta_cursor.png),default;
+}
+p.gustavo_12:hover{
+    text-shadow: 1px 2px 2px rgb(60, 231, 126);
+}
+p.gustavo_13:hover{
+    text-shadow: 1px 2px 2px	#f5ab33;
+}
+p.gustavo_1:hover{
+    text-shadow: 1px 2px 2px 	#8475e3b1;
+}
+p.gustavo_11:hover{
+    text-shadow: 1px 2px 2px 	#1e8fffae;
+}
+.anel_sobre{
+    width: 50px;
+    height: 50px;
+}
+.star_sobre{
+    width: 70px;
+    height: 70px;
+}
+.tabela_links{
+    margin:auto;
+}
+.link_left{
+    padding-left: 1cm;
+}
+.link_right{
+    padding-left: 15cm;
+}
+
+.link_center{
+    text-align: center;
+}
+
+#de_volta_ao_topo{
+	text-decoration: none;
+	color: white;
+	background-color: #161623;
+	padding: 10px;
+	right: 10px;
+	bottom: 10px;
+	position: fixed;
+}
+.titulo{
+    text-align: center;
+    font-size: 250%;
+}
+
+h2{
+    text-align: center;
+    font-size: 200%;
+}
+
+.ir_home{
+    color: #FEBB00;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 140%;
+    cursor: url(Imagens_Us/caneta_cursor.png),default;
+}
+a.ir_home:hover{
+    color:white;
+    cursor: url(Imagens_Us/caneta_cursor.png),default;
+}
+.center{
+    width:60cm;
+    text-align: center;
+}
+
+.p_descricao{
+    text-align: justify;
+    padding-left: 20px;
+    font-size: 175%;
+}
+
+.anel_sobre:hover{
+    width: 60px;
+    height: 60px;
+}
+.star_sobre:hover{
+    width: 80px;
+    height: 70px; 
+}
+
+.divlinks{
+    border: 3px solid white;
+    background-color: #1C1C1C;
+    
+}
+.todos{
+    width: 800px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+.linklucas:hover{
+   text-transform: uppercase;
+}
+
+.insta{
+    width: 50px;
+    margin-bottom: 3.6px;
+    margin-left: 32px;
+    padding-right: 0%;
+    margin-right: 0%;
+    text-align: center;
+
+}
+.face{
+    width: 50px;
+    padding-bottom: 5px;
+    margin-left: 1px;
+}
+.disc{
+    width: 50px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+    
+}
+.git{
+    width: 50px;
+    padding-bottom: 5px;
+    margin-left: 1px;
+}
+.lin{
+    width: 50px;
+    padding-bottom: 5px;
+    margin-left: 1px;
+}
+.lin_vini{
+    width: 50px;
+    padding-bottom: 0;
+    margin-left: 18px;
+    padding-right: 0%;
+    margin-right: 0%;
+    padding-top: 10px;
+}
+.discV{
+    width: 50px;
+    padding-bottom: 0;
+    padding-left: 1px;
+    
+}
+.gitV{
+    width: 50px;
+    padding-bottom: 0;
+    margin-left: 1px;
+}
+#foto_vini{
+    margin-bottom: 26px;
+}
+.insta_e{
+    width: 50px;
+    padding-bottom: 0;
+    margin-left: 22px;
+    padding-right: 0%;
+    margin-right: 0%;
+    margin-top: 0;
+}
+.git_e{
+    width: 50px;
+    padding-bottom: 0;
+    margin-left: 1px;
+}
+.lin_e{
+    width: 50px;
+    padding-bottom: 0;
+    margin-left: 1px;
+}
+#foto_e{
+    margin-bottom: 18px;
+}
+.insta:hover{
+   box-shadow: 1px 2px 2px #000;
+   background-color: rgba(0, 0, 0, 0.114);
+   /*transition: 0.2s;*/
+}
+.insta_e1:hover{
+    box-shadow: 1px 2px 2px #000;
+    background-color: rgba(0, 0, 0, 0.114);
+}
+.git_e1:hover{
+    box-shadow: 1px 2px 2px #000;
+    background-color: rgba(0, 0, 0, 0.114);
+}
+.lin_e1:hover{
+    box-shadow: 1px 2px 2px #000;
+    background-color: rgba(0, 0, 0, 0.114);
+}
+.face:hover{
+    box-shadow: 1px 2px 2px #000;
+    background-color: rgba(0, 0, 0, 0.114);
+    /*transition: 0.2s;*/
+ }
+ .disc:hover{
+    box-shadow: 1px 2px 2px #000;
+    background-color: rgba(0, 0, 0, 0.114);
+    /*transition: 0.2s;*/
+ }
+ .git:hover{
+    box-shadow: 1px 2px 2px #000;
+    background-color: rgba(0, 0, 0, 0.114);
+    /*transition: 0.2s;*/
+ }
+ .lin:hover{
+    box-shadow: 1px 2px 2px #000;
+    background-color: rgba(0, 0, 0, 0.114);
+    /*transition: 0.2s;*/
+ }
+ .discV:hover{
+    box-shadow: 1px 2px 2px #000;
+    background-color: rgba(0, 0, 0, 0.114);
+    /*transition: 0.2s;*/
+ }
+ .gitV:hover{
+    box-shadow: 1px 2px 2px #000;
+    background-color: rgba(0, 0, 0, 0.114);
+    /*transition: 0.2s;*/
+ }
+ .git_e:hover{
+    box-shadow: 1px 2px 2px #000;
+    background-color: rgba(0, 0, 0, 0.114);
+    /*transition: 0.2s;*/
+ }
+ .lin_e:hover{
+    box-shadow: 1px 2px 2px #000;
+    background-color: rgba(0, 0, 0, 0.114);
+    /*transition: 0.2s;*/
+ }
+ .lin_vini:hover{
+    box-shadow: 1px 2px 2px #000;
+    background-color: rgba(0, 0, 0, 0.114);
+    /*transition: 0.2s;*/
+ }
+ .insta_e:hover{
+    box-shadow: 1px 2px 2px #000;
+    background-color: rgba(0, 0, 0, 0.114);
+    /*transition: 0.2s;*/
+ }
+ #de_volta_ao_topo:hover{
+    border-radius: 12px;
+    color:#FEBB00
+ }
+h1{
+    font-family: "titulo";
+}
+p{
+    font-family: "texto";
+}
+.div_ir_home{
+    font-family: "link";
+    font-size: 40px;
+    text-align: center;
+}
+#diferente{
+    font-family: "link";
+    font-size: 45px;
+}
+h2{
+    font-family: "link";
+    font-size: 40px;
+    padding-top: 34px;
+}
+.fotos{
+    box-shadow: 1px 2px 3px #000;
+}
+
+
+.sec_center,.divlinks{
+    text-align: center;
+}

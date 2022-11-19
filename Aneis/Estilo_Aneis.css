@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "elfico";
+    src: url("./Fontes_Aneis/Acadian_Runes-Regular_PERSONAL_USE.ttf") ;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "drago";
+    src: url("./Fontes_Aneis/Dragonlord_PERSONAL_USE_ONLY.otf") ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "trevoso";
+    src: url("./Fontes_Aneis/Alice_in_Wonderland_3.ttf") ;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "medieval";
+    src: url("./Fontes_Aneis/OldeEnglish.ttf") ;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+}
+.menu{
+   padding:20px 80px;
+   height: 80px;
+   border-bottom: 6px solid rgb(218, 165, 32);
+   background-image:url(../Aneis/Imagens_Aneis/papiro5.jpg
+   
+}
+.pe{
+   background-image: url(./Imagens_Aneis/fundo_atras_aneis2.png);
+   height: 80px;
+   border-top: 6px solid rgb(218, 165, 32);
+   margin-top: 20px;
+}
+p{
+    text-align: justify;
+    color:black;
+    font-size: 150%;
+    font-family:"trevoso", 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 30px;
+    text-indent: 40px;
+    
+}
+html{
+    cursor: url(Imagens_Aneis/imgCursor1.png),default;
+}
+
+body{
+    height: auto;
+    /*background-color: black;*/
+    background-image: url("./Imagens_Aneis/fundo_atras_aneis2.png");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-top: 25px;
+    border-color: bisque;
+    cursor: url(Imagens_Aneis/imgCursor1.png),default;
+}
+.background-image{
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+}
+h2{
+    text-align: center;
+    font-family:"elfico", 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    font-family:"drago", 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 100px;
+}
+h1:hover{
+    text-shadow: 1px 5px 7px rgba(121, 93, 8, 0.881);
+}
+
+.firsttable{
+    margin: auto;
+    text-align: center;
+   
+}
+
+
+.toplinks{
+    border: none;
+    
+    
+}
+
+.maindiv{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+    border: 6px solid rgb(218, 165, 32);
+    background-image: url(Imagens_Aneis/papiro5.jpg);  
+    margin: center;
+    flex: 50%;
+    
+
+}
+
+.maintable{
+    background-image: url(Imagens_Aneis/papiro5.jpg);
+}
+
+a{
+    color: whitesmoke;
+    /*background-image: url(Imagens_Aneis/papiro5.jpg);*/
+    /*border: 3px solid rgb(218,165,32);*/
+    font-size: 125%;
+    text-decoration: none;
+    cursor: url(Imagens_Aneis/imgCursor1.png),default;
+    font-family:"elfico", 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+a:hover{
+    color: #febb00;
+    /*background-color:rgb(218,165,32);*/
+    border-radius: 12px;
+    /*border: 3px solid rgb(255, 255, 255);*/
+}
+.tdcuriosity:hover{
+    background-color: rgba(112, 109, 89,0.5);
+    border-radius: 12px;
+    box-shadow: 1px 4px 3px rgba(0, 0, 0, 0.748);
+}
+td{
+    /*box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.716);*/
+}
+.divmenulinks{
+    font-size: small !important;
+    text-align: center;
+}
+header{
+    align-items: center;
+}
+
+p{
+    color:whitesmoke;
+    text-shadow: 3px 5px 5px black;
+}
+.sub_titulo{
+    color: #febb00;
+    text-shadow: 1px 3px 3px black;
+}
+h2{
+    color: #febb00;
+}
+.indexlink{
+    /*border: 3px solid rgb(218,165,32);*/
+    color: white;
+    text-shadow: 1px 2px 2px black;
+    font-size: 250%;
+    text-decoration: none;
+    font-family: "medieval", 'Times New Roman', Times, serif;;
+    font-weight: normal;
+}   
+.indexlink:hover{
+    text-shadow: 1px 5px 7px rgba(121, 93, 8, 0.881);
+    /*background-color: rgba(112, 109, 89,0.5);*/
+}
+
+.thbottomlinkleft{
+    width: 20cm;
+    text-align: left;
+    
+}
+
+.thbottomlinkright{
+    width: 20cm;
+    text-align: right;
+    
+}
+
+.thbottomlinkcenter{
+    text-align: center;
+}
+
+.thirdtable{
+    margin:auto;
+}
+
+.autores{
+    text-align: right;
+    font-size: 100%;
+    font-size: 20px;
+}
+
+.fontes{
+    color: black;
+    /*background-color: white;*/
+    /*background-color: rgba(0, 0, 0,1.0);*/
+    /*border: 1px solid white;*/
+    font-size: 100%;
+    background-color: rgba(112, 109, 89,0.5);;
+
+}
+
+img{
+    width: 600px;
+    height: 300px ;
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    font-size: auto;
+    margin: -8;
+    padding: -8;
+    margin-top: 0%;
+    object-position: left top;
+    shape-image-threshold:inherit;
+    border-bottom:30%,;
+    border-bottom-width: 50px;
+    flex: 50%;
+}
+
+
+
+figcaption{
+    text-align: center;
+    opacity: 70%;
+    font-size: 80%;
+}
+
+
+.curiosity{
+
+    font-size: 200%;
+    color: rgb(255,215,0);
+    background-color: rgba(0, 0, 0,0.0);
+    text-shadow: 2px 1px 1px black;
+    /*background-color: white;*/
+    /*color: black;*/
+    border:0px;
+    text-align: center;
+}
+
+.imgcuriosityleft{
+    border-radius: 12px;
+    margin-left: 0px;
+    width: 500px;
+    height: 300px;
+}
+
+.tdcuriosity{
+    border: 3px solid rgb(218,165,32) ;
+    padding: 10px;
+}
+
+.imgcuriosityright{
+    border-radius: 12px;
+    margin-right: 0px;
+    width: 500px;
+    height: 300px;
+    
+}
+
+.tablecuriosity{
+   margin: auto;
+   width: 30cm;
+   
+}
+
+
+
+.poema{
+    text-align: center;
+}
+
+
+::-webkit-scrollbar{
+    width: 12px;
+    /*background-image: url("fundo_estrelado_star_wars.png");*/
+    background-color: rgb(28, 28, 28);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(218,165,32);
+    border-radius: 2px;
+}
+::-webkit-scrollbar:hover{
+    cursor: url(Imagens_Aneis/imgCursor1.png),default;
+}
+
+
+::-webkit-scrollbar-thumb:hover{
+
+    cursor: url(Imagens_Aneis/imgCursor1.png),default;
+}
+
+.proxima_pag{
+    width: 80px;
+    height: 80px;
+}
+
+.proxima_pag:hover{
+   width: 85px;
+   height: 85px;
+}
+#de_volta_ao_topo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 1.5px 1.5px 1.5px rgba(121, 93, 8, 0.9);
+    background-color: #161623;
+    padding: 10px;
+    right: 10px;
+    bottom: 10px;
+    position: fixed;
+    
+
+}
+#textinho{
+    padding-bottom: 20px;
+    color: #fff
+}
+#de_volta_ao_topo:hover{
+    text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.9);
+    color: rgb(241, 177, 13) ;
+}
+
+.linkUS{
+    text-decoration: none;
+    color:black;
+    margin-right: 0;
+}
+#de_volta_ao_topo{
+    background-color: rgba(0, 0, 0,0.0);
+}
+
+.fonte_curiosidades{
+    font-family:"drago", 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 75px;
+}
+.fim_pag{
+    font-family: "elfico", 'Times New Roman', Times, serif;;
+    font-weight: normal;
+    font-size: 30px;
+}
+.sub_titulo{
+    font-family: "elfico", 'Times New Roman', Times, serif;;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.trteste{
+    width: 15cm;
+}
+table{
+    background-color:rgba(0,0,0,0.3);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.716);
+}
+
+.proxpaglink1{
+    padding-left: 804px;
+}
+.proxpaglink{
+    padding-left: 790px;
+}
+

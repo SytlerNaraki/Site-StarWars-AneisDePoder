@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: "texto";
+	src: url("./Imagens_Index/fonte_index/VCR_OSD_MONO_1.001.ttf") ;
+	font-weight: normal;
+	font-style: normal;
+}
+html, body{
+	height: auto;
+	background-color: black;
+	cursor: url(./Imagens_index/Falcon3.png), default;
+	
+}
+.tdshow_star{
+	width: 10cm;
+	height: 10cm;
+	opacity: 0;
+	margin: auto;
+	padding-top: 10px;
+}
+.tdshow_aneis{
+	margin: auto;
+	width: 10cm;
+	height: 10cm;
+	opacity: 0;
+	padding-bottom: 75px;
+}
+.tdshow_star:hover{
+	opacity: 100;
+	transition: 0.6s;
+}
+.texto_piscando{
+	color: rgb(255, 255, 255);
+	font-size: 3rem;
+	font-family:"texto", 'Times New Roman', Times, serif;
+	animation: piscapisca 1.5s infinite;
+}
+@keyframes piscapisca{
+	0%{color: rgb(255, 255, 255);}
+	10%{color: rgb(245, 245, 255);
+		font-size: 2.6rem;
+	}
+	20%{color: rgb(255, 255, 255);}
+	30%{color: rgb(245, 245, 255);
+		font-size: 2.6rem;
+	}
+	40%{color: rgb(255, 255, 255);}
+	50%{color: rgb(245, 245, 255);
+		font-size: 2.6rem;
+	}
+	60%{color: rgb(255, 255, 255);}
+	70%{color: rgb(245, 245, 255);
+		font-size: 2.6rem;
+	}
+	80%{color: rgb(255, 255, 255);}
+	90%{color: rgb(245, 245, 255);
+		font-size: 2.6rem;
+	}
+	100%{color: rgb(245, 245, 255);}
+}
+.div_mova{
+	margin: 0 auto;
+}
+h1{
+	color: rgb(218, 201, 201);
+}
+h1:hover{
+	text-shadow: 1px 4px 4px rgb(31, 31, 214);
+}
+.tdshow_aneis:hover{
+	opacity: 100;
+	transition: 0.6s;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+h2{
+	transform: rotate(270deg);
+	text-align: center;
+}
+table{
+	text-align: center;
+}
+/*
+
+.div_tabela{
+	margin: 0 auto;
+	height: auto;
+	width: 20cm;	
+}
+*/
+.total{
+	background-image: url("./Star/Imanges_Star/fundo_estrelado_star_wars.png");
+}
+.total{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh !important;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+a.link_star{
+	cursor: url(./Imagens_index/Falcon3.png), default;
+	caret-color:unset;
+	/*cursor:none;*/
+}
+a.link_star:active{
+	cursor: none;
+}
+a.link_aneis{
+	cursor: url(./Imagens_index/Falcon3.png), default;
+}
+a.link_aneis:active{
+	cursor: none;
+}
+::-webkit-scrollbar{
+    width: 12px;
+    /*background-image: url("fundo_estrelado_star_wars.png");*/
+    background-color: rgb(28, 28, 28);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(218,165,32);
+    border-radius: 2px;
+}
