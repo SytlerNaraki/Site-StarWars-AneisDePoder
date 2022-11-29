@@ -1,4 +1,4 @@
-Oi# Site-StarWars-AneisDePoder
+Site-StarWars-AneisDePoder
 Este foi um trabalho feito na faculdade com mais 3 amigos, da disciplina de html.
 
 Cotribuíram com esse site: 
